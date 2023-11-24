@@ -2,7 +2,7 @@ import random
 dict_cards = {}
 
 list1 = ["A", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-list2 = ["Ace", "Hearts", "Spade", "Diamond"]
+list2 = ["Clubs", "Hearts", "Spade", "Diamond"]
 list_cards = []
 for number in list1:
     for symbol in list2:
@@ -61,6 +61,8 @@ while flag:
     # else:
     #     pass
     if not computer_bust:
+        # 21-computer_count < 6:
+
         if random.choice(["h", "p"]) == "h":
             computer_hand.append(list_cards[0])
             list_cards.pop(0)

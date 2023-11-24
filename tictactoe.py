@@ -1,11 +1,11 @@
-list_pos = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list_pos = ["", 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 def printer():
     print(
-        f"{list_pos[0]} {list_pos[1]} {list_pos[2]}\n"
-        f"{list_pos[3]} {list_pos[4]} {list_pos[5]}\n"
-        f"{list_pos[6]} {list_pos[7]} {list_pos[8]}\n"
+        f"{list_pos[1]} {list_pos[2]} {list_pos[3]}\n"
+        f"{list_pos[4]} {list_pos[5]} {list_pos[6]}\n"
+        f"{list_pos[7]} {list_pos[8]} {list_pos[9]}\n"
     )
 
 
